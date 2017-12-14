@@ -11,7 +11,7 @@ The path from the root to a particular node gives the word stored in that node. 
 we use this data structure to store key-value pairs. Keys are nothing but the words stored in trie.
 Suppose we have an alphabet of N=3 letters. When only the key-value pair cc-v1 is inserted, the trie looks like "Trie-1.jpg"
 When baac-v2 is inserted, we have the following: "Trie-2.jpg" 
-Finally, to insert <b>b-v3</b>, you do not create a new node: "Trie-3	
+Finally, to insert b-v3, you do not create a new node: "Trie-3	
 Shaded nodes are called leaf. Observe that the meaning of the word is not the same as in the context of trees in general. 
 Here, if a path from the root to a particular node forms a key that is inserted in the tree, then this particular node is 
 referred as leaf. So, the node that stores v3 as value is also a leaf.When you are asked to return the value that corresponds to a key 
